@@ -7,6 +7,10 @@ body {
 }
 
 .container {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  height: 100vh; /* Ocupa toda la altura de la pantalla */
   position: relative;
 }
 
@@ -68,16 +72,11 @@ body {
 }
 
 .text {
-  position: absolute;
   font-family: 'Brush Script MT', cursive;
   font-size: 28px;
   text-align: center;
   line-height: 25px;
   color: #003049;
-  
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 .heart {
