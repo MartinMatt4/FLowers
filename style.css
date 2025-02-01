@@ -64,6 +64,7 @@ body {
   align-items: center; /* Centra verticalmente */
 }
 
+
 .card:before {
   content:"";
   position: absolute;
@@ -73,6 +74,10 @@ body {
   heighT: 140px;
   left:12px;
   top:12px;
+
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
 }
 
 .text {
